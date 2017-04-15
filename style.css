@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css?family=Electrolize|Geo|Press+Start+2P');
+
+body{
+  background-color: lightyellow;
+  display: flex;
+  justify-content: center;
+  padding: auto 0;
+}
+
+.calc{
+  margin-top: 15px;
+  width: 130px;
+  height: 290px;
+  border: 2px solid black;
+  padding: 5px;
+  box-shadow: 5px 5px 0px orange;
+  background-color: white;
+  border-radius: 4px;
+  
+}
+
+
+.button{
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  margin: 4px;
+  border: 1px solid black;
+  box-shadow: 1px 1px 0px black;
+  border-radius: 0px;
+  background-color: lightgray;
+  
+  -webkit-appearance: none;
+  -webkit-border-radius: 0;
+}
+
+.button:hover{
+  background-color: darkgray;
+}
+
+.button:active{
+  background-color: orange;
+  box-shadow: 0px 0px 0px black;
+}
+
+.button.selected{
+  border: 1px solid black;
+  border-top: 2px solid black;
+  border-left: 2px solid black;
+}
+
+.display{
+  //font-family: 'Press Start 2P', cursive;
+  font-family: 'Electrolize', sans-serif;
+  //font-family: 'Geo', sans-serif;
+  font-size: 11px;
+  text-align: right;
+  background-color: lightgray;
+  color: darkgreen;
+  border: 0px;
+  box-shadow: 0px 2px 0px black;
+  margin-bottom: 5px; 
+  display: block;
+  width: 119px;
+  height: 25px;
+  font-weight: bold;
+  padding-right: 5px;
+  padding-left: 5px;
+  border-radius: 5px 5px 0px 0px;
+}
+
+.digits{
+  border: 1px solid gray;
+  margin-top: 5px;
+  padding: 5px;
+  //text-align: center;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.functions {
+  border: 1px solid gray;
+  margin-top: 5px;
+  padding: 5px;
+  //text-align: center;
+  background: white;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
