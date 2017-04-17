@@ -149,7 +149,7 @@ for (i=0; i<buttons.length; i++){
 var mainBgColor=0;
 
 var backgroundFlow = function(){
-    document.body.style.backgroundColor = "hsl("+ mainBgColor +", 100%, 96%)";
+    document.body.style.backgroundColor = "hsl("+ mainBgColor +", 100%, 93%)";
     mainBgColor +=3;
     if (i>360) i=0;
 }
