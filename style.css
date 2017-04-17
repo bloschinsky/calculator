@@ -11,9 +11,9 @@ body{
   margin-top: 15px;
   width: 130px;
   height: 290px;
-  border: 2px solid black;
+  border: 1px solid black;
   padding: 5px;
-  box-shadow: 5px 5px 0px orange;
+  box-shadow: 0px 0px 4px 1px darkgray;
   background-color: white;
   border-radius: 4px;
   
